@@ -20,13 +20,6 @@ API keys are now stored in a separate `env.h` file to keep them out of version c
    - **IP2Location**: Sign up at https://www.ip2location.com/web-service
    - **OpenWeather**: Sign up at https://openweathermap.org/api
 
-## Security Features
-
-- ✅ `src/env.h` is in `.gitignore` - won't be committed to version control
-- ✅ Template file shows structure without revealing keys
-- ✅ API keys are centralized in one file
-- ✅ Easy to update keys without touching main code
-
 ## Current API Keys Used
 
 - **IP2Location**: Used for automatic location detection and timezone setting
